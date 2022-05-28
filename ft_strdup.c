@@ -24,7 +24,7 @@
 //	return (c);
 //}
 
-char	*ft_strcpy(char *dest, char *src)
+static char	*ft_strcpy(char *dest, char *src)
 {
 	while (*src != '\0')
 	{
